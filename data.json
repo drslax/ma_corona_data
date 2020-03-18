@@ -1,7 +1,7 @@
 {
-  "lastUpdate": "2020-03-17 22:03",
-  "total": 44,
-  "active": 41,
+  "lastUpdate": "2020-03-18 20:31",
+  "total": 49,
+  "active": 46,
   "deaths": 2,
   "recovered": 1,
   "locations": [
@@ -13,7 +13,7 @@
     {
       "name": "Casablanca",
       "position": [33.595, -7.6186],
-      "count": 9
+      "count": 11
     },
     {
       "name": "Marrakech",
@@ -53,12 +53,12 @@
     {
       "name": "Meknes",
       "position": [33.8968225, -5.531844],
-      "count": 1
+      "count": 2
     },
     {
       "name": "Agadir",
       "position": [30.4208, -9.583],
-      "count": 1
+      "count": 3
     },
     {
       "name": "Tangier",
