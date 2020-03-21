@@ -7,17 +7,17 @@
   "locations": [
     {
       "name": "Beni Mellal-Khénifra",
-      "position": [32.4073084, -6.8460185],
+      "position": [32.3308994, -6.4083342],
       "count": 2
     },
     {
       "name": "Casablanca-Settat",
-      "position": [33.0645267, -8.4664033],
+      "position": [33.5722677, -7.6572038],
       "count": 22
     },
     {
       "name": "Fès-Meknès",
-      "position": [33.7402919, -5.5129027],
+      "position": [34.0239579, -5.0368456],
       "count": 21
     },
     {
@@ -32,7 +32,7 @@
     },
     {
       "name": "Oriental",
-      "position": [33.5789147, -3.6815988],
+      "position": [34.4048349, -2.9172135],
       "count": 4
     },
     {
@@ -42,7 +42,7 @@
     },
     {
       "name": "Souss-Massa",
-      "position": [29.7255369,-9.3046706],
+      "position": [30.0801613, -8.4726047],
       "count": 6
     },
     {
@@ -52,7 +52,7 @@
     },
     {
       "name": "Drâa-Tafilalet",
-      "position": [31.3861507, -6.5496905],
+      "position": [30.9355212, -6.9501418],
       "count": 1
     }
   ]
