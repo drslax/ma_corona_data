@@ -6,7 +6,7 @@
   "recovered": 3,
   "locations": [
     {
-      "name": "Beni Mellal-Khénifra​",
+      "name": "Beni Mellal-Khénifra",
       "position": [32.4073084, -6.8460185],
       "count": 2
     },
@@ -49,21 +49,6 @@
       "name": "Tangier-Tétouan-Al Hoceima",
       "position": [35.2169864, -5.5851266],
       "count": 7
-    },
-    {
-      "name": "Meknes",
-      "position": [33.8968225, -5.531844],
-      "count": 2
-    },
-    {
-      "name": "Agadir",
-      "position": [30.4208, -9.583],
-      "count": 3
-    },
-    {
-      "name": "Tangier",
-      "position": [35.777103, -5.803792],
-      "count": 2
     },
     {
       "name": "Drâa-Tafilalet",
