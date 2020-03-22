@@ -1,7 +1,7 @@
 {
-  "lastUpdate": "2020-03-22 13:30",
-  "total": 108,
-  "active": 102,
+  "lastUpdate": "2020-03-22 14:30",
+  "total": 109,
+  "active": 103,
   "deaths": 3,
   "recovered": 3,
   "locations": [
@@ -13,7 +13,7 @@
     {
       "name": "Casablanca-Settat | جهة الدار البيضاء سطات",
       "position": [33.5722677, -7.6572038],
-      "count": 22
+      "count": 24
     },
     {
       "name": "Fès-Meknès | جهة فاس مكناس",
@@ -38,7 +38,7 @@
     {
       "name": "Rabat-Salé-Kénitra | جهة الرباط سلا القنيطرة",
       "position": [34.0806772, -6.7860605],
-      "count": 27
+      "count": 28
     },
     {
       "name": "Souss-Massa | جهة سوس ماسة",
