@@ -33,11 +33,7 @@ def Scraper():
     len_recovered = len(list_data[1]) - len(death) - 1
     if (len_recovered < 1):
         exit(-1)
-    print(len_recovered)
     list_data[1] = list_data[1][:len_recovered]
     list_data = list_data[:2] + death + list_data[2:]
     print(list_data)
     return (list_data, localisations)
-
-
-Scraper()

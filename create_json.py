@@ -80,6 +80,7 @@ data["lastUpdate"], data["total"], data["deaths"], data["recovered"] = scraped[0
     scraped[3]), int(scraped[2]), int(scraped[1])
 data["active"] = data["total"] - data["deaths"] - data["recovered"]
 data["lastUpdate"] = data["lastUpdate"].replace("H", ":")
+data["lastUpdate"] = data["lastUpdate"][:6] + ' ' + data["lastUpdate"][6:]
 print((data["lastUpdate"]))
 for location in data["locations"]:
     i, ratio = 0, 0
