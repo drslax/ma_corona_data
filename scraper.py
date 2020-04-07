@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 
 def Scraper():
 
-    url = 'http://www.covidmaroc.ma/Pages/Accueil.aspx'
+    url = 'http://www.covidmaroc.ma/Pages/AccueilAR.aspx'
     headers = {
         'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'}
     page = requests.get(url, headers=headers)
@@ -29,7 +29,15 @@ def Scraper():
         'ascii', 'ignore').decode("utf-8").split('\n')
     list_data = list(filter(None, elems.text.encode(
         'ascii', 'ignore').decode("utf-8").split('\n')))
-
-    list_data[1] = re.sub(f'{death}$', '', list_data[1])
+    print(list_data)
+    len_recovered = len(list_data[1]) - len(death) - 1
+    if (len_recovered < 1):
+        exit(-1)
+    print(len_recovered)
+    list_data[1] = list_data[1][:len_recovered]
     list_data = list_data[:2] + death + list_data[2:]
+    print(list_data)
     return (list_data, localisations)
+
+
+Scraper()
