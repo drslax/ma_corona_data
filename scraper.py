@@ -30,7 +30,12 @@ def Scraper():
     list_data = list(filter(None, elems.text.encode(
         'ascii', 'ignore').decode("utf-8").split('\n')))
     print(list_data)
-    len_recovered = len(list_data[1]) - len(death) - 1
+    len_death = len(death[0])
+    if len_death < 3:
+        len_death = 3
+    len_recovered = len(list_data[1]) - len_death
+    print(len_recovered)
+    print(len(death[0]))
     if (len_recovered < 1):
         exit(-1)
     list_data[1] = list_data[1][:len_recovered]
